@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+body {
+  background-color: wheat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.news-block {
+  padding: 10px;
+  border-style: solid;
+  border-color: white;
+  margin: 20px;
+  width: fit-content;
+  background-image:radial-gradient(white, wheat)
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.display-news {
+  background-image:radial-gradient(white, wheat)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.filter-div {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  
+}
+
+.input {
+  margin: 10px;
+}
+.search-bar {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.headlines {
+  border-color: lightgrey;
+  margin: 2px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+.li-div {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: baseline;
+  border-style: solid;
+  border-color: white;
+  height: min-content;
+  height: 25em;
+  width: 50em;
+  max-width: fit-content;
+  background-image:radial-gradient(white, wheat)
+}
+
+.li-div p {
+  color: lightgrey;
+}
+
+.a-link:link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.a-link:visited {
+  text-decoration: none;
+}
+
+.a-link:hover {
+  text-decoration: underline;
+}
+
+.a-link:active {
+  text-decoration: underline;
+}
+
+.filter-sections {
+  display: flex;
+}
+
+.section-li {
+  list-style: none;
+  margin: 5px;
+}
+
+.new-article-li {
+  list-style: none;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+.ul-div {
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ul {
+  display: flex;
+  
 }
